@@ -41,7 +41,7 @@
     "@catppuccin/palette": "2.0.0-beta.1"
   },
   "devDependencies": {
-    "@unocss/core": "^66.3.2"
+    "@unocss/core": "^66.5.0"
   },
   "peerDependencies": {
     "@unocss/core": ">=0.51.0 <101"

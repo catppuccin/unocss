@@ -6,10 +6,10 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.10.1"
+    "astro": "^5.13.5"
   },
   "devDependencies": {
     "@catppuccin/palette": "2.0.0-beta.1",
-    "unocss": "^66.3.2"
+    "unocss": "^66.5.0"
   }
 }
