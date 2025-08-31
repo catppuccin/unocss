@@ -1,6 +1,6 @@
 export default /** @type {Partial<import('typedoc').TypeDocOptions>} */ ({
   entryPoints: ['src'],
-  entryPointStrategy: 'expand',
+  entryPointStrategy: 'Expand',
   out: 'docs',
   cleanOutputDir: true,
   favicon: '../../assets/icons/icon-dark.svg',
