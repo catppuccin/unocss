@@ -57,7 +57,7 @@ jobs:
           cp -r website/dist/* github-pages/
 
       - name: Upload artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: github-pages
 
