@@ -4,7 +4,7 @@ import { default as js } from '@eslint/js';
 import * as ts from 'typescript-eslint';
 
 export default ts.config([
-  globalIgnores(['**/**/dist', '**/**/docs', '**/**/.astro']),
+  globalIgnores(['**/dist/**', '**/docs/**', '**/.astro']),
   { name: 'JavaScript', files: ['**/*.{m,}js'], ...js.configs.recommended },
   {
     name: 'TypeScript',
