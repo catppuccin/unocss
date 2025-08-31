@@ -5,14 +5,14 @@ on:
   push:
     paths:
       - .github/workflows/ci.yaml
-      - src/**
+      - packages/**
       - website/**
       - '**/package.json'
       - pnpm-lock.yaml
   pull_request:
     paths:
       - .github/workflows/ci.yaml
-      - src/**
+      - packages/**
       - website/**
       - '**/package.json'
       - pnpm-lock.yaml
@@ -27,6 +27,7 @@ jobs:
   code-check:
     name: Run Code Check Workflow
     uses: ./.github/workflows/code-check.yaml
+
   code-tests:
     name: Run Tests Workflow
     uses: ./.github/workflows/code-test.yaml

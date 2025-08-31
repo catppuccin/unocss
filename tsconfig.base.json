@@ -1,5 +1,5 @@
 {
-  "exclude": ["docs", "dist"],
+  "exclude": ["**/dist/**"],
 
   "compilerOptions": {
     // Type Checking

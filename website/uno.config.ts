@@ -5,7 +5,7 @@ import {
   transformerVariantGroup,
 } from 'unocss';
 
-import presetCatppuccin from '../src/index.ts';
+import presetCatppuccin from '../packages/catppuccin-unocss/src/index.ts';
 import { flavorEntries } from '@catppuccin/palette';
 
 export default defineConfig({

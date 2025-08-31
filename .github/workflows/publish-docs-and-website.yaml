@@ -44,16 +44,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build library, documentation and website
+      - name: Build workspace packages and documentation
         run: |
           pnpm build
           pnpm build:docs
-          pnpm build:website
 
       - name: Prepare structure
         run: |
           mkdir -p github-pages/docs
-          cp -r docs/* github-pages/docs/
+          cp -r packages/catppuccin-unocss/docs/* github-pages/docs/
           cp -r website/dist/* github-pages/
 
       - name: Upload artifacts

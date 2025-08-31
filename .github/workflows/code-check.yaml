@@ -32,11 +32,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build library
+      - name: Build workspace packages
         run: pnpm build
-
-      - name: Build website
-        run: pnpm build:website
 
       - name: Check linting
         run: pnpm check:lint
