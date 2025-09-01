@@ -3,7 +3,7 @@
   "last-release-sha": "2abd0ec82af934baa4296ed0f614f6c724c390fe",
   "packages": {
     "packages/catppuccin-unocss": {
-      "package-name": "@catppuccin/unocss",
+      "package-name": "",
       "release-type": "node"
     }
   }
