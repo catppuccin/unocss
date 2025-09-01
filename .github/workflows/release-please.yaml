@@ -15,7 +15,8 @@ jobs:
       issues: write
       pull-requests: write
     outputs:
-      release-created: ${{ steps.release-please.outputs.release_created }}
+      release-created: ${{ steps.release-please.outputs['packages/catppuccin-unocss--release_created'] }}
+      tag-name: ${{ steps.release-please.outputs['packages/catppuccin-unocss--tag_name'] }}
     steps:
       - name: Run Release Please Action
         id: release-please
