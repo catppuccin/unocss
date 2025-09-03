@@ -5,9 +5,9 @@
     "build": "pnpm -r build",
     "build:catppuccin-unocss": "pnpm -F @catppuccin/unocss build",
     "build:docs": "pnpm -F @catppuccin/unocss build:docs",
-    "build:website": "pnpm -F ./website build",
+    "build:example": "pnpm -F example build",
     "dev": "pnpm -r dev",
-    "dev:website": "pnpm -F ./website dev",
+    "dev:example": "pnpm -F example dev",
     "test": "pnpm -r test",
     "check:lint": "eslint .",
     "check:format": "prettier --check ."
