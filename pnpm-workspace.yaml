@@ -1,7 +1,7 @@
 packages:
-  - website
+  - packages/*
+  - example
 
 onlyBuiltDependencies:
-  - '@parcel/watcher'
   - esbuild
   - sharp

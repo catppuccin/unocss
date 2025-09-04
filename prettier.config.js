@@ -1,5 +1,4 @@
-/** @type {import('prettier').Options} */
-export default {
+export default /** @type {import('prettier').Options} */ ({
   arrowParens: 'avoid',
   experimentalOperatorPosition: 'start',
   experimentalTernaries: true,
@@ -8,4 +7,4 @@ export default {
   singleQuote: true,
   plugins: ['prettier-plugin-astro'],
   overrides: [{ files: '*.astro', options: { parser: 'astro' } }],
-};
+});

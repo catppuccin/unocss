@@ -1,4 +1,4 @@
-name: Publish Documentation and Website
+name: Publish Documentation and Example Website
 
 on:
   workflow_run:
@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   publish:
-    name: Publish Documentation and Website
+    name: Publish Documentation and Example Website
     runs-on: ubuntu-latest
     if: github.event.workflow_run.conclusion == 'success'
     environment:
@@ -44,17 +44,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build library, documentation and website
+      - name: Build workspace packages and documentation
         run: |
           pnpm build
           pnpm build:docs
-          pnpm build:website
 
       - name: Prepare structure
         run: |
           mkdir -p github-pages/docs
-          cp -r docs/* github-pages/docs/
-          cp -r website/dist/* github-pages/
+          cp -r packages/catppuccin-unocss/docs/* github-pages/docs/
+          cp -r example/dist/* github-pages/
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v4

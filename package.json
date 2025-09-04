@@ -1,70 +1,30 @@
 {
-  "name": "@catppuccin/unocss",
-  "version": "3.0.0",
-  "description": "🌸 Soothing pastel theme preset for UnoCSS!",
-  "keywords": [
-    "catppuccin",
-    "theme",
-    "unocss",
-    "colours",
-    "pastel"
-  ],
-  "homepage": "https://github.com/catppuccin/unocss#readme",
-  "repository": "github:catppuccin/unocss",
-  "funding": [
-    "https://github.com/sponsors/catppuccin",
-    "https://opencollective.com/catppuccin"
-  ],
-  "license": "MIT",
-  "author": "tuhana <tuhana.cat+npm@gmail.com>",
+  "private": true,
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": {
-        "import": "./dist/index.d.ts"
-      }
-    }
-  },
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "node --test \"**/**.test.ts\"",
-    "build": "pkgroll",
-    "build:docs": "typedoc",
-    "build:website": "pnpm --filter ./website build",
+    "build": "pnpm -r build",
+    "build:catppuccin-unocss": "pnpm -F @catppuccin/unocss build",
+    "build:docs": "pnpm -F @catppuccin/unocss build:docs",
+    "build:example": "pnpm -F example build",
+    "dev": "pnpm -r dev",
+    "dev:example": "pnpm -F example dev",
+    "test": "pnpm -r test",
     "check:lint": "eslint .",
-    "check:format": "prettier --check .",
-    "prepack": "pnpm build"
-  },
-  "files": [
-    "dist/"
-  ],
-  "dependencies": {
-    "@catppuccin/palette": "2.0.0-beta.1"
+    "check:format": "prettier --check ."
   },
   "devDependencies": {
-    "@eslint/js": "^9.30.0",
-    "@types/node": "^24.0.7",
-    "@unocss/core": "^66.3.2",
-    "eslint": "^9.30.0",
-    "pkgroll": "^2.13.1",
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "pkgroll": "^2.15.3",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
-    "typedoc": "^0.28.6",
+    "typedoc": "^0.28.12",
     "typedoc-material-theme": "^1.4.0",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.35.0"
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.42.0"
   },
-  "peerDependencies": {
-    "@unocss/core": ">=0.51.0 <101"
-  },
-  "peerDependenciesMeta": {
-    "@unocss/core": {
-      "optional": true
-    }
-  },
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.15.1",
   "engines": {
     "node": ">=20.0.0"
   }

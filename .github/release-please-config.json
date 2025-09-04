@@ -1,7 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "last-release-sha": "2abd0ec82af934baa4296ed0f614f6c724c390fe",
+  "include-component-in-tag": false,
   "packages": {
-    ".": { "package-name": "", "release-type": "node" }
+    "packages/catppuccin-unocss": { "package-name": "", "release-type": "node" }
   }
 }
