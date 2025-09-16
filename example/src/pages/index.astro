@@ -48,12 +48,13 @@ const {
             [
               ['Documentation', `/docs`],
               ['GitHub', 'https://github.com/catppuccin/unocss'],
+              ['npm', 'https://www.npmjs.com/package/@catppuccin/unocss'],
             ].map(([text, href]) => (
               <li class='inline'>
                 <a
                   class='font-semibold text-[--ctp-blue] transition-colors duration-300 ease'
                   href={href}
-                  target={text === 'Documentation' ? '_self' : '_blank'}
+                  target={href === '/docs' ? '_self' : '_blank'}
                 >
                   {text}
                 </a>
