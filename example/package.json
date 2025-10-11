@@ -7,7 +7,7 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.13.5"
+    "astro": "^5.14.3"
   },
   "devDependencies": {
     "@catppuccin/palette": "2.0.0-beta.1",
