@@ -13,13 +13,13 @@ importers:
         version: 10.0.1(eslint@10.0.3(jiti@2.6.1))
       '@types/node':
         specifier: ^24.3.0
-        version: 24.12.0
+        version: 24.12.2
       eslint:
         specifier: ^10.0.0
         version: 10.0.3(jiti@2.6.1)
       pkgroll:
         specifier: ^2.15.3
-        version: 2.27.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3))
+        version: 2.27.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3))
       prettier:
         specifier: ^3.6.2
         version: 3.8.1
@@ -969,8 +969,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@24.12.0':
-    resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   '@types/node@25.3.0':
     resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
@@ -3160,7 +3160,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@24.12.0':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -4559,7 +4559,7 @@ snapshots:
       mlly: 1.8.0
       pathe: 2.0.3
 
-  pkgroll@2.27.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3)):
+  pkgroll@2.27.0(typescript@5.9.3)(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3)):
     dependencies:
       '@rollup/plugin-alias': 6.0.0(rollup@4.59.0)
       '@rollup/plugin-commonjs': 29.0.1(rollup@4.59.0)
@@ -4570,7 +4570,7 @@ snapshots:
       esbuild: 0.26.0
       magic-string: 0.30.21
       rollup: 4.59.0
-      rollup-plugin-import-trace: 1.0.1(rollup@4.59.0)(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3))
+      rollup-plugin-import-trace: 1.0.1(rollup@4.59.0)(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3))
       rollup-pluginutils: 2.8.2
       yaml: 2.8.2
     optionalDependencies:
@@ -4719,10 +4719,10 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rollup-plugin-import-trace@1.0.1(rollup@4.59.0)(vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3)):
+  rollup-plugin-import-trace@1.0.1(rollup@4.59.0)(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3)):
     optionalDependencies:
       rollup: 4.59.0
-      vite: 7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3)
+      vite: 7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3)
 
   rollup-pluginutils@2.8.2:
     dependencies:
@@ -5066,7 +5066,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@7.3.1(@types/node@24.12.0)(jiti@2.6.1)(yaml@2.8.3):
+  vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(yaml@2.8.3):
     dependencies:
       esbuild: 0.27.3
       fdir: 6.5.0(picomatch@4.0.3)
@@ -5075,7 +5075,7 @@ snapshots:
       rollup: 4.59.0
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       fsevents: 2.3.3
       jiti: 2.6.1
       yaml: 2.8.3
