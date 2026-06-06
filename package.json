@@ -13,16 +13,16 @@
     "check:format": "prettier --check ."
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.0",
-    "@types/node": "^24.3.0",
-    "eslint": "^10.0.0",
-    "pkgroll": "^2.15.3",
-    "prettier": "^3.6.2",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
+    "eslint": "^10.4.1",
+    "pkgroll": "^2.27.1",
+    "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
-    "typedoc": "^0.28.12",
-    "typedoc-material-theme": "^1.4.0",
-    "typescript": "^5.9.2",
-    "typescript-eslint": "^8.42.0"
+    "typedoc": "^0.28.19",
+    "typedoc-material-theme": "^1.4.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.1"
   },
   "packageManager": "pnpm@11.5.2",
   "engines": {
