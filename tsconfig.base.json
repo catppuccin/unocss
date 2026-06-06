@@ -23,6 +23,7 @@
     "module": "Preserve",
     "moduleResolution": "bundler",
     "noUncheckedSideEffectImports": true,
+    "types": ["node"],
 
     // Emit
     "noEmit": true,
