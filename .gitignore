@@ -1,3 +1,5 @@
+.direnv/
+
 .DS_Store
 
 dist/
