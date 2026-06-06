@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@catppuccin/palette": "2.0.0-beta.1",
+    "@unocss/astro": "^66.7.0",
     "unocss": "^66.7.0"
   }
 }
