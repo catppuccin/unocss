@@ -21,7 +21,7 @@
     "prettier-plugin-astro": "^1.0.0",
     "typedoc": "^0.28.19",
     "typedoc-material-theme": "^1.4.1",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.0",
     "typescript-eslint": "^8.60.1"
   },
   "packageManager": "pnpm@12.18.0",
