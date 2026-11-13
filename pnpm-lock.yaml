@@ -177,7 +177,7 @@ importers:
         version: 10.14.0(jiti@2.7.0)
       pkgroll:
         specifier: ^2.27.1
-        version: 2.29.0(typescript@6.0.3)
+        version: 2.29.1(typescript@6.0.3)
       prettier:
         specifier: ^3.8.3
         version: 3.9.10
@@ -2428,8 +2428,8 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  pkgroll@2.29.0:
-    resolution: {integrity: sha512-nTWWA9J9mClHnwzDonKtgpP3iZxWNHo6YH4Jo6BfsRNv54v35GtqNFVG6E+WrsSNLiWu8es6PyjSH/EiBDex1g==}
+  pkgroll@2.29.1:
+    resolution: {integrity: sha512-2zQ1E1tPVxZtQz9wN+uTetJZKwj548xQGyAlWgVkhge31pJBt4R8poDrkWVvuYNkosrjpL8i6op5gBGWJyOEQg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -3647,10 +3647,10 @@ snapshots:
       '@rollup/pluginutils': 5.4.0(rollup@4.67.5)
       commondir: 1.0.1
       estree-walker: 2.0.2
-      fdir: 6.5.0(picomatch@4.0.5)
+      fdir: 6.5.0(picomatch@4.0.7)
       is-reference: 1.2.1
       magic-string: 0.30.21
-      picomatch: 4.0.5
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.67.5
 
@@ -3682,9 +3682,9 @@ snapshots:
 
   '@rollup/pluginutils@5.4.0(rollup@4.67.5)':
     dependencies:
-      '@types/estree': 1.0.9
+      '@types/estree': 1.0.10
       estree-walker: 2.0.2
-      picomatch: 4.0.5
+      picomatch: 4.0.7
     optionalDependencies:
       rollup: 4.67.5
 
@@ -4544,6 +4544,10 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.5
 
+  fdir@6.5.0(picomatch@4.0.7):
+    optionalDependencies:
+      picomatch: 4.0.7
+
   file-entry-cache@11.1.5:
     dependencies:
       flat-cache: 6.1.23
@@ -4683,7 +4687,7 @@ snapshots:
 
   is-reference@1.2.1:
     dependencies:
-      '@types/estree': 1.0.9
+      '@types/estree': 1.0.10
 
   isexe@2.0.0: {}
 
@@ -4953,7 +4957,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  pkgroll@2.29.0(typescript@6.0.3):
+  pkgroll@2.29.1(typescript@6.0.3):
     dependencies:
       '@rollup/plugin-alias': 6.0.0(rollup@4.67.5)
       '@rollup/plugin-commonjs': 29.0.3(rollup@4.67.5)
@@ -4967,7 +4971,7 @@ snapshots:
       rollup-plugin-import-trace: 1.0.1(rollup@4.67.5)
       rollup-pluginutils: 2.8.2
       signal-exit: 4.1.0
-      yaml: 2.9.0
+      yaml: 2.9.1
     optionalDependencies:
       typescript: 6.0.3
     transitivePeerDependencies:
